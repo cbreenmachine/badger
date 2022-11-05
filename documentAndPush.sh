@@ -1,5 +1,5 @@
 #!/bin/bash
-Rscript 'devtools::document()'
+R -e "devtools::document()"
 git add .
 git commit -m "Updates to package"
 git push
